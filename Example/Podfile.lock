@@ -1,0 +1,16 @@
+PODS:
+  - NTL_AgoraFPA (1.0.0)
+
+DEPENDENCIES:
+  - NTL_AgoraFPA (from `../NTL_AgoraFPA.podspec`)
+
+EXTERNAL SOURCES:
+  NTL_AgoraFPA:
+    :podspec: "../NTL_AgoraFPA.podspec"
+
+SPEC CHECKSUMS:
+  NTL_AgoraFPA: 24a5d0541aba7818829d0051faa7b53317b944a0
+
+PODFILE CHECKSUM: 2e59bf5ae326fd767124286c6e15057fde7c8ec4
+
+COCOAPODS: 1.11.3

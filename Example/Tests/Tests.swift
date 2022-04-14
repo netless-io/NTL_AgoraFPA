@@ -1,5 +1,4 @@
 import XCTest
-import NTL_AgoraFPA
 
 class Tests: XCTestCase {
     

@@ -1,29 +1,15 @@
 # NTL_AgoraFPA
 
-[![CI Status](https://img.shields.io/travis/vince/NTL_AgoraFPA.svg?style=flat)](https://travis-ci.org/vince/NTL_AgoraFPA)
-[![Version](https://img.shields.io/cocoapods/v/NTL_AgoraFPA.svg?style=flat)](https://cocoapods.org/pods/NTL_AgoraFPA)
-[![License](https://img.shields.io/cocoapods/l/NTL_AgoraFPA.svg?style=flat)](https://cocoapods.org/pods/NTL_AgoraFPA)
-[![Platform](https://img.shields.io/cocoapods/p/NTL_AgoraFPA.svg?style=flat)](https://cocoapods.org/pods/NTL_AgoraFPA)
+这个仓库是为了给AgoraFPA生成XCFramework使用
 
-## Example
+使用到了 [arm64-to-sim](https://github.com/bogo/arm64-to-sim)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+同时修复了CFBundleShortVersionString缺失导致的Xcode13.3.1打包失败
 
-## Requirements
+由于没有i386的架构，最低版本支持为iOS 11
 
-## Installation
+## 如何更新版本
 
-NTL_AgoraFPA is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'NTL_AgoraFPA'
-```
-
-## Author
-
-vince, zjxuyunshi@gmail.com
-
-## License
-
-NTL_AgoraFPA is available under the MIT license. See the LICENSE file for more info.
+1. 运行 `sh create_fpa_xcframework.sh`
+2. 将当前目录的xcframework打包后发布到cdn
+3. 更新podspec

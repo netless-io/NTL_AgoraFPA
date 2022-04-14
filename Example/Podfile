@@ -1,6 +1,6 @@
 use_frameworks!
 target 'NTL_AgoraFPA_Tests' do
-  pod 'NTL_AgoraFPA', :path => '../'
+  pod 'NTL_AgoraFPA', :podspec => '../NTL_AgoraFPA.podspec'
   
   
 end
