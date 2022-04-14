@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NTL_AgoraFPA_Tests' do
+  pod 'NTL_AgoraFPA', :path => '../'
+  
+  
+end
