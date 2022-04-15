@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vince' => 'zjxuyunshi@gmail.com' }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '8.0'
 
   s.source = { :http => 'https://sdk.netless.link/fpa/1.0.0/AgoraFPA.zip' }
   s.vendored_frameworks = 'AgoraFpaProxyService.xcframework', 'AgoraFPA.xcframework'
