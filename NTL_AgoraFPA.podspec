@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NTL_AgoraFPA'
-  s.version          = '1.0.0'
+  s.version          = '1.2.1'
   s.summary          = 'XCFramework for AgoraFPA.'
 
   s.description      = <<-DESC

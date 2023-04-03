@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Download
-curl -o fpa.zip https://download.agora.io/sdk/release/AgoraFpaService_for_iOS_v1.0.0.zip
+curl -o fpa.zip https://download.agora.io/sdk/release/AgoraFpaService_for_iOS_v1.2.1.zip
 unzip fpa.zip
 
 # Fix version
