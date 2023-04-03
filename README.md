@@ -10,6 +10,6 @@
 
 ## 如何更新版本
 
-1. 运行 `sh create_fpa_xcframework.sh`
+1. 运行 `sh create_fpa_xcframework.sh (记得修改里面的链接路径。需要去 Agora 官网查找)`
 2. 将当前目录的xcframework打包后发布到cdn
 3. 更新podspec
